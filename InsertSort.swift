@@ -14,7 +14,7 @@ import Foundation
 import Foundation
 
 // This function calculates the mean.
-func sortBubble(_ arrayNums: [Int]) -> [Int] {
+func insertSort(_ arrayNums: [Int]) -> [Int] {
     var sortedNums = arrayNums
     // If statement, returning empty array 
     // to avoid out of bounds error. 
@@ -22,7 +22,7 @@ func sortBubble(_ arrayNums: [Int]) -> [Int] {
         return sortedNums
     }
     // Usage of loop to access each element.
-    for counter1 in 0..<sortedNums.count - 1 {
+    for counter1 in 0..<sortedNums.count {
         // Declare variable. 
         let current = sortedNums[counter1]
         var temp = counter1 - 1
@@ -105,13 +105,13 @@ do {
         }
         
         // Sort the integer array.
-        let bubbleSort = sortBubble(intArray)
+        let sortInsert = insertSort(intArray)
         
         // Display to user.
-        print(bubbleSort)
+        print(sortInsert)
         
         // Write to file.
-        let data3 = Data("The sorted array is:  \(bubbleSort)\n".utf8)
+        let data3 = Data("The sorted array is:  \(sortInsert)\n".utf8)
         output.write(data3)
     }
 

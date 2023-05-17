@@ -1,9 +1,11 @@
 Invalid input: '' is not a valid integer
-The sorted array is:  [5, 6, 9, 10, 4]
-Invalid input: 'Hello' is not a valid integer
-The sorted array is:  [101]
-No integers found on line.
-Invalid input: 'Ditto' is not a valid integer
+The sorted array is:  [3, 5, 8, 17, 19, 47]
+Invalid input: 'Trees' is not a valid integer
 The sorted array is:  []
-The sorted array is:  [-1, 4, 7, 12, 26, 46, 58, 74, 173, 193, 817, 920, 56]
-The sorted array is:  [18, 23, 28, 45, 45, 69, 76, 90]
+No integers found on line.
+The sorted array is:  [-7, 1, 3, 4, 8]
+Invalid input: '' is not a valid integer
+The sorted array is:  [6, 7, 8]
+No integers found on line.
+Invalid input: '' is not a valid integer
+The sorted array is:  [16, 27, 35, 45, 46, 67, 90, 489, 1739]
